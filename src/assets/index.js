@@ -33,7 +33,7 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
-import vinnovate from "./vinnovate.jpg"
+import vinnovate from "./vinnovate.png"
 import Fitwell from "./Fitwell.png"
 import newsapp from "./newsapp.png"
 import IIITSlogo from "./IIITSlogo.png"
