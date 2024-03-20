@@ -18,11 +18,14 @@ const Education = () => {
         <h2 className={styles.sectionHeadText}>Education </h2>
       </motion.div>
 
-      <div className="container flex mt-4 flex-wrap">
+      <div className="container flex mt-4 flex-wrap justify-center">
+        <div className="flex justify-center mt-2">
         <div className="logo" style={{alignItems:'center'}}>
             <img src={IIITSlogo } alt="" srcset="" style={{height:'100px', width:'120px', borderRadius:'50%'}} />
         </div>
-        <div className="info mx-12 flex flex-col ">
+        </div>
+       
+        <div className="info mx-12 flex flex-col justify-center text-center">
             <div className="name" style={{fontSize:'1.5rem'}}>
                 <span>Indian Institute of Information Technology, Sri City(IIITS)</span>
             </div>

@@ -44,7 +44,7 @@ const SocialMedia = () => {
             </a>
         </div>
         <div className="btn mx-2">
-            <a href="https://drive.google.com/file/d/1_4PDoODJeDD-BO8RQcaWfPu6gdimSPOw/view?usp=sharing" target="_blank">
+            <a href="https://drive.google.com/file/d/1D_uFzEwukU9YAtXnWd6H5IJUjPKJ_RF-/view?usp=sharing" target="_blank">
             <button className="btn btn-primary bg-white text-black p-1 w-55 rounded-md" style={{height:'3.5rem', fontWeight:'bolder', fontSize:'17px'}}>Resume</button>
             </a>
         </div>

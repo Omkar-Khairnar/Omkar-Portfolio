@@ -25,6 +25,7 @@ import {
   threejs,
   vinnovate,
   Fitwell,
+  ImagiAI,
   newsapp,
   IIITSlogo,
   NSSlogo,
@@ -184,7 +185,7 @@ const volunteerExperience=[
     title: "Organizing Team Member",
     company_name: "Techno Cultural Fest @IIITS",
     image:abhisargalogo,
-    date: "Feb 2023",
+    date: "March 2024",
     points: [
       "Served as an Organizing Team Member for the Techno Cultural Fest @IIITS, contributing to the successful execution of the event.",
       "Played a key role in planning and coordinating various aspects of the fest, ensuring a seamless and engaging experience for participants.",
@@ -222,13 +223,47 @@ const testimonials = [
 
 const projects = [
   {
+    name: "ImagiAI",
+    description:
+          "ImagiAI: An innovative NEXT.js SaaS platform leveraging AI-powered image editing capabilities, featuring precise tools for image restoration, generative fill, object removal, object recoloring, and background removal. Integrated with Clerk for authentication and Stripe for seamless payments.",
+    tags: [
+      {
+        name: "NextJS",
+        color: "white-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind-shadcn",
+        color: "purple-text-gradient",
+      },
+      {
+        name: "Stripe Payment",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "nodeJS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Clerk Auth",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: ImagiAI,
+    source_code_link: "https://github.com/Omkar-Khairnar/ImagiAI",
+    project_url:"https://imagiai.vercel.app/"
+  },
+  {
     name: "FitWell",
     description:
       "Fitwell is a MERN Application providing health facilities to users. Many Fitness centers are registered on applications and also providing wokouts and daily challenges to users based on the registering pricing plan. E-Commerce facility is health products also provided.",
     tags: [
       {
-        name: "react",
-        color: "blue-text-gradient",
+        name: "ReactJS",
+        color: "white-text-gradient",
       },
       {
         name: "mongodb",
@@ -240,7 +275,7 @@ const projects = [
       },
       {
         name: "REST API",
-        color: "purple-text-gradient",
+        color: "pink-text-gradient",
       },
       {
         name: "nodeJS",
@@ -248,28 +283,8 @@ const projects = [
       },
     ],
     image: Fitwell,
-    source_code_link: "https://github.com/Omkar-Khairnar/Fitwell-ReactJS",
-  },
-  {
-    name: "NewsMonkey",
-    description:
-      "Web application that enables users search for latest news based on different categories.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "nodejs",
-        color: "green-text-gradient",
-      },
-      {
-        name: "NEWSAPI",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: newsapp,
-    source_code_link: "https://github.com/Omkar-Khairnar/newsMonkey",
+    source_code_link: "https://github.com/Omkar-Khairnar/FitWell-ReactJS",
+    project_url: "https://fitwell-fitnessapp.vercel.app",
   },
   {
     name: "Code Search",
@@ -291,6 +306,29 @@ const projects = [
     ],
     image: tripguide,
     source_code_link: "https://github.com/Omkar-Khairnar/CODE-SEARCH-Information-Retrieval/",
+    project_url:"#"
+  },
+  {
+    name: "NewsMonkey",
+    description:
+      "Web application that enables users search for latest news based on different categories.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "nodejs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "NEWSAPI",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: newsapp,
+    source_code_link: "https://github.com/Omkar-Khairnar/newsMonkey",
+    project_url: "https://news-monkey-sepia-pi.vercel.app/",
   },
 ];
 

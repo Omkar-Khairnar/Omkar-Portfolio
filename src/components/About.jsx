@@ -41,8 +41,8 @@ const About = () => {
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>Introduction</p>
         <h2 className={styles.sectionHeadText}>WHAT I DO? </h2>
-        <p className={styles.sectionSubText} style={{color:'#ffa6a6'}}>#MERN Stack || #Backend Developer || #Relational DB</p>
-        <p className={styles.sectionSubText} style={{color:'#ffa6a6'}}>#C++/C || #Java || OOPS || DSA : Problem Solver</p>
+        <p className={styles.sectionSubText} style={{color:'#ec008c'}}>#MERN Stack || #Backend Developer || #Relational DB</p>
+        <p className={styles.sectionSubText} style={{color:'#ec008c'}}>#C++/C || #Java || OOPS || DSA : Problem Solver</p>
       </motion.div>
 
       <motion.p

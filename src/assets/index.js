@@ -39,7 +39,8 @@ import newsapp from "./newsapp.png"
 import IIITSlogo from "./IIITSlogo.png"
 import NSSlogo from "./NSSlogo.png"
 import abhisargalogo from "./abhisargalogo.jpeg"
-
+import ImagiAI from "./ImagiAI.png"
+import Chrome from "./browserIcon.png"
 
 export {
   logo,
@@ -79,5 +80,7 @@ export {
   linuxlogo,
   cpplogo,
   javalogo,
-  sqllogo
+  sqllogo,
+  ImagiAI,
+  Chrome
 };
