@@ -1,0 +1,3 @@
+export const VITE_APP_EMAILJS_PUBLIC_KEY="xcBBQ32-Qur4dDHeu"
+export const VITE_APP_EMAILJS_SERVICE_ID="service_hc7ci74"
+export const VITE_APP_EMAILJS_TEMPLATE_ID="template_fk6l26i"

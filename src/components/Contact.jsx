@@ -1,11 +1,12 @@
 import React, { useRef, useState } from "react";
 import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
-import nodemailer from 'nodemailer'
 import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
+import { VITE_APP_EMAILJS_PUBLIC_KEY, VITE_APP_EMAILJS_SERVICE_ID, VITE_APP_EMAILJS_TEMPLATE_ID } from "../../envvar";
+
 
 const Contact = () => {
   const formRef = useRef();
@@ -33,19 +34,20 @@ const Contact = () => {
     e.preventDefault();
     setLoading(true);
 
+    // console.log(process.env.VITE_APP_EMAILJS_SERVICE_ID);
     
     emailjs
       .send(
-        import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
-        import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
+        VITE_APP_EMAILJS_SERVICE_ID,
+        VITE_APP_EMAILJS_TEMPLATE_ID,
         {
           from_name: form.name,
           to_name: "Omkar K",
           from_email: form.email,
-          to_email: "webcoder158@gmail.com",
+          to_email: "omkarkhairnar9441@gmail.com",
           message: form.message,
         },
-        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
+        VITE_APP_EMAILJS_PUBLIC_KEY
       )
       .then(
         () => {
